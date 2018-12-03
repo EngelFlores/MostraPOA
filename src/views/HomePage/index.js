@@ -1,8 +1,8 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import './index.css';
 
 export default () => (
-    <div className="main">
+    <Fragment className="main">
         <div className="bgimg-1">
             <div className="caption">
                 <span className="border">FOTO 1</span>
@@ -43,5 +43,5 @@ export default () => (
                 <span className="border">COOL!</span>
             </div>
         </div>
-    </div>
+    </Fragment>
 )
