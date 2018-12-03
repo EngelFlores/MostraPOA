@@ -37,3 +37,15 @@ p {
 .tippy-notransition{
 background-color: white !important;
 }
+
+@media (min-width:700px){
+    .header_mobile{
+        display: none;
+    }
+}
+
+@media (max-width:700px){
+    .menu{
+        display: none;
+    }
+}
