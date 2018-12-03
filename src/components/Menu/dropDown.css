@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0
+}
+
+p {
+    color: white;
+    cursor: pointer;
+}
