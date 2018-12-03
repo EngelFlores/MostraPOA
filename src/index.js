@@ -6,9 +6,11 @@ import './index.css';
 
 import Index from './views/HomePage'
 import NotFound from './views/NotFound'
+import {Menu} from './components/Menu/dropDown'
 
 const routes = () => (
     <Fragment>
+      <Menu/>
       <Switch>
         <Route path="/index" component={Index} />
         <Redirect exact from="/" to="index" />
