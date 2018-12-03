@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: justify;
+    width: 100%;
 }
 
 a {
@@ -28,4 +29,11 @@ a {
 p {
     color: white;
     cursor: pointer;
+}
+.tippy-tooltip,
+.tippy-tooltip--regular,
+.light-theme,
+.enter ,
+.tippy-notransition{
+background-color: white !important;
 }
