@@ -1,15 +1,16 @@
 import React,{Fragment} from 'react';
+import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
 
 export const Regulamento = () => (
     <Fragment>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
                     
                 </div>
             </div>
-            <div class="row cronograma">
-                <div class="col-md-12">
+            <div className="row cronograma">
+                <div className="col-md-12">
                
 			   <p>A <a href="http://aula.inf.poa.ifrs.edu.br/~evandro/mostrapoa/comissao.html">Comissão Organizadora</a> da 17ª Mostra de Pesquisa, Ensino e Extensão do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Porto Alegre, no uso de suas atribuições, estabelece as diretrizes gerais deste evento, que se realizará nos dias 06 e 07 de outubro de 2016.</p>
 			   
@@ -43,7 +44,7 @@ export const Regulamento = () => (
 				<h2>4. Inscrições</h2>
 				<p>A inscrição no evento deverá ser realizada através do site de gerenciamento de conferências do Campus PoA - PoaConf <a href="http://poaconf.poa.ifrs.edu.br/index.php/mostra/index/user/account">http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra/user/account</a>, conforme orientações do quadro seguinte:</p>
 				
-				<table class="table table-hover text-left">
+				<table className="table table-hover text-left">
 					<tr>
 						<th>MODALIDADE CANDIDATOS</th>
 						<th>PRÉ-REQUISITOS</th>
@@ -52,26 +53,26 @@ export const Regulamento = () => (
 					
 					<tr>
 						<td><b>Primeiro autor</b> (apresentador do trabalho)</td>
-						<td>Estudantes de cursos técnicos ou superiores (ou pós-graduação do IFRS) matriculados em instituições de ensino, em pelo menos um (1) semestre do ano de 2016 ou que concluíram o curso no segundo semestre de 2015. <span style="color:green;">No ato da inscrição e submissão, o autor principal cadastra os demais coautores</span>.</td>
-						<td>Inscrição e submissão do resumo: 03 de agosto a <strike>18 de agosto</strike> <span style="color:green;">25 de agosto de 2016</span></td>
+						<td>Estudantes de cursos técnicos ou superiores (ou pós-graduação do IFRS) matriculados em instituições de ensino, em pelo menos um (1) semestre do ano de 2016 ou que concluíram o curso no segundo semestre de 2015. <span style={{color:'green'}}>No ato da inscrição e submissão, o autor principal cadastra os demais coautores</span>.</td>
+						<td>Inscrição e submissão do resumo: 03 de agosto a <strike>18 de agosto</strike> <span style={{color:'green'}}>25 de agosto de 2016</span></td>
 					</tr>
 					
 					<tr>
 						<td><b>Coautor</b></td>
 						<td>Estudantes de cursos técnicos ou superiores matriculados em instituições de ensino, em pelo menos um (1) semestre do ano de 2016 ou que concluíram o curso no segundo semestre de 2015.</td>
-						<td>Inscrição: 03 de agosto a <strike>18 de agosto</strike> <span style="color:green;">25 de agosto de 2016</span></td>
+						<td>Inscrição: 03 de agosto a <strike>18 de agosto</strike> <span style={{color:'green'}}>25 de agosto de 2016</span></td>
 					</tr>
 					
 					<tr>
 						<td><b>Orientador</b></td>
 						<td>Servidores (docentes ou técnicos-administrativos) que desenvolvam atividades de ensino, pesquisa e/ou extensão, nas respectivas instituições de ensino técnico e/ou superior.</td>
-						<td>Inscrição: 03 de agosto a <strike>18 de agosto</strike> <span style="color:green;">25 de agosto de 2016</span></td>
+						<td>Inscrição: 03 de agosto a <strike>18 de agosto</strike> <span style={{color:'green'}}>25 de agosto de 2016</span></td>
 					</tr>
 					
 					<tr>
 						<td><b>Coorientador</b></td>
 						<td>Servidores (docentes ou técnicos-administrativos) que desenvolvam atividades de ensino, pesquisa e/ou extensão, nas respectivas instituições de ensino técnico e/ou superior; ou profissionais vinculados a outras instituições não diretamente relacionadas com as atividades de ensino, tais como, empresas, associações, ONGs, e demais instituições públicas ou privadas.</td>
-						<td>Inscrição: 03 de agosto a <strike>18 de agosto</strike> <span style="color:green;">25 de agosto de 2016</span></td>
+						<td>Inscrição: 03 de agosto a <strike>18 de agosto</strike> <span style={{color:'green'}}>25 de agosto de 2016</span></td>
 					</tr>
 					
 					<tr>
@@ -94,7 +95,7 @@ export const Regulamento = () => (
 					
 				</table>
 				
-				<p>O <b>primeiro autor</b> é responsável por submeter o trabalho (já revisado pelo Orientador) e deverá ser também o seu apresentador. Para a submissão do trabalho pelo primeiro autor, todos os demais integrantes do trabalho <!-- [alunos coautores, orientador(a) e coorientador(a)] devem estar <b>previamente inscritos no evento</b> --> deverão ser incluídos no momento da submissão - etapa 3. INCLUSÃO DE METADADOS, botão "Incluir Autor" (no link <a href="http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra/user/account">http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra/user/account</a>). A submissão do trabalho implica a concordância de todos os integrantes.</p>
+                <p>O <b>primeiro autor</b> é responsável por submeter o trabalho (já revisado pelo Orientador) e deverá ser também o seu apresentador. Para a submissão do trabalho pelo primeiro autor, todos os demais integrantes do trabalho  deverão ser incluídos no momento da submissão - etapa 3. INCLUSÃO DE METADADOS, botão "Incluir Autor" (no link <a href="http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra/user/account">http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra/user/account</a>). A submissão do trabalho implica a concordância de todos os integrantes.</p>
 				<p>O <a href="http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra/login?source=%2Findex.php%2Fmostra%2Fmostra%2Fauthor%2Fsubmit%3FrequiresAuthor%3D1">envio de trabalhos</a> deve ser realizado por meio do site do site <a href="http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra">PoaConf</a> (Gerenciador de Conferências) no período de 03 a 18 de agosto de 2016.</p>
 				<p>Os voluntários são alunos do IFRS que irão atuar na organização e realização da 17ª Mostra de Pesquisa, Ensino e Extensão juntamente com a Comissão Organizadora.</p>
 				<p>No primeiro dia do evento todos os inscritos deverão se dirigir até o <b>local de credenciamento</b> da 17ª Mostra de Pesquisa, Ensino e Extensão para confirmação da inscrição, registro de presença e retirada de materiais.</p>
@@ -146,7 +147,7 @@ export const Regulamento = () => (
 				
 				
 				<h2>6. Submissão de Trabalhos</h2>
-				<p>O período de submissão de trabalhos (resumos) será de 03 a <strike>18 de agosto</strike> <span style="color:green;">25 de agosto</span> de 2016 (prazo prorrogado).</p>
+				<p>O período de submissão de trabalhos (resumos) será de 03 a <strike>18 de agosto</strike> <span style={{color:'green'}}>25 de agosto</span> de 2016 (prazo prorrogado).</p>
 				<p>A submissão do trabalho se dará através do <a href="http://poaconf.poa.ifrs.edu.br/index.php/mostra/mostra/schedConf/cfp">Gerenciador de Conferências</a> .</p>
 				<p>O trabalho submetido será avaliado pela Comissão Organizadora que emitirá o aceite no evento.A homologação das inscrições dos trabalhos será efetuada pela Comissão Organizadora do evento e divulgada no site, conforme cronograma.</p>
 				<p>Ao resumo que não estiver adequado ao Regulamento do evento, a Comissão Organizadora solicitará sua readequação, permitindo novamente o acesso do autor principal ao sistema de submissão de resumos, para que sejam efetuadas as devidas correções. O resumo corrigido deverá ser novamente submetido dentro dos prazos previstos no cronograma (1° de setembro a 06 de setembro de 2016). Caso as correções não sejam realizadas ou não estejam de acordo com o solicitado pela Comissão Organizadora, a inscrição do trabalho não será homologada. Após a submissão do resumo corrigido não poderão ser realizadas modificações.</p>
@@ -178,12 +179,8 @@ export const Regulamento = () => (
 				<h2>9. Casos Omissos</h2>
 				<p>Casos omissos serão analisados e deliberados pela Comissão Organizadora.</p>
 				
-				<h2>10. Anexos</h2>
-				
-				<p><b>Envio da Versão Final</b>: o template é um arquivo .doc a ser enviado com a formatação final: <a href="http://mostra.poa.ifrs.edu.br/2016/arquivos/modelo-MostraPoA-final.doc">http://mostra.poa.ifrs.edu.br/2016/arquivos/modelo-MostraPoA-final.doc</a>. Assista a dica no vídeo abaixo de como preparar seu arquivo usando o modelo da MostraPoA e como submeter a versão final.</p>
-				<iframe width="400" height="225" src="https://www.youtube.com/embed/oxhwGS0ENKc?rel=0" frameborder="0" allowfullscreen></iframe>
 
-				  
+			  
                 </div>
             </div>
         </div>

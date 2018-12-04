@@ -6,6 +6,7 @@ import './dropDown.css'
 import './hamburguer.css'
 
 
+
 export const Menu = () => (
     <Fragment>
         <nav className="header_mobile" role="navigation">
@@ -20,7 +21,7 @@ export const Menu = () => (
                         html={
                             <div className='container'>
                                 <Link to={'/'}>NOVIDADES</Link>
-                                <Link to={'/'}>REGULAMENTOS</Link>
+                                <Link to={'/regulamento'}>REGULAMENTOS</Link>
                                 <Link to={'/'}>EVENTOS</Link>
                             </div>
                         }
@@ -36,7 +37,7 @@ export const Menu = () => (
                         position="bottom-start"
                         html={
                             <div className='container'>
-                                <Link to={'/'}>REGULAMENTO</Link>
+                                <Link to={'/regulamento'}>REGULAMENTO</Link>
                                 <Link to={'/'}>INSCRIÇÕES</Link>
                                 <Link to={'/'}>CRONOGRAMA</Link>
                                 <Link to={'/'}>PROGRAMAÇÃO</Link>
@@ -79,7 +80,7 @@ export const Menu = () => (
                         position="bottom-start"
                         html={
                             <div className='container'>
-                                <Link to={'/'}>REGULAMENTO</Link>
+                                <Link to={'/regulamento'}>REGULAMENTO</Link>
                                 <Link to={'/'}>INSCRIÇÕES</Link>
                                 <Link to={'/'}>CRONOGRAMA</Link>
                                 <Link to={'/'}>PROGRAMAÇÃO</Link>
@@ -126,7 +127,7 @@ export const Menu = () => (
                 html={
                     <div className='container'>
                         <Link to={'/'}>NOVIDADES</Link>
-                        <Link to={'/'}>REGULAMENTOS</Link>
+                        <Link to={'/regulamento'}>REGULAMENTOS</Link>
                         <Link to={'/'}>EVENTOS</Link>
                     </div>
                 }
@@ -142,7 +143,7 @@ export const Menu = () => (
                 position="bottom-start"
                 html={
                     <div className='container'>
-                        <Link to={'/'}>REGULAMENTO</Link>
+                        <Link to={'/regulamento'}>REGULAMENTO</Link>
                         <Link to={'/'}>INSCRIÇÕES</Link>
                         <Link to={'/'}>CRONOGRAMA</Link>
                         <Link to={'/'}>PROGRAMAÇÃO</Link>
@@ -163,7 +164,7 @@ export const Menu = () => (
                 position="bottom-start"
                 html={
                     <div className='container'>
-                        <Link to={'/'}>REGULAMENTO</Link>
+                        <Link to={'/regulamento'}>REGULAMENTO</Link>
                         <Link to={'/'}>INSCRIÇÕES</Link>
                         <Link to={'/'}>CRONOGRAMA</Link>
                         <Link to={'/'}>PROGRAMAÇÃO</Link>
