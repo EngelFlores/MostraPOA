@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
 import { Tooltip } from 'react-tippy'
 import 'react-tippy/dist/tippy.css'
 import './dropDown.css'
@@ -8,8 +8,6 @@ import './hamburguer.css'
 
 export const Menu = () => (
     <Fragment>
-
-
         <nav className="header_mobile" role="navigation">
             <div id="menutoggle">
                 <input type="checkbox" />
@@ -59,7 +57,7 @@ export const Menu = () => (
                         position="bottom-start"
                         html={
                             <div className='container'>
-                                <Link to={'/'}>REGULAMENTO</Link>
+                                <Link to={'/regulamento'}>REGULAMENTO</Link>
                                 <Link to={'/'}>INSCRIÇÕES</Link>
                                 <Link to={'/'}>CRONOGRAMA</Link>
                                 <Link to={'/'}>PROGRAMAÇÃO</Link>
@@ -71,6 +69,8 @@ export const Menu = () => (
                         interactive="true"
                         useContext="true"
                         theme="light"
+                        
+                        
                     >
                         <p>STARTPOA</p>
                     </Tooltip>
@@ -218,7 +218,7 @@ export const Menu = () => (
             </Tooltip>
 
             <p onClick={<Redirect to={''}></Redirect>}>SOBRE</p>
-
+            
             <p onClick={<Redirect to={''}></Redirect>}>CONTATO</p>
         </div>
     </Fragment>

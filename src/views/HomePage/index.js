@@ -11,15 +11,10 @@ export default () => (
 
         <div className="row">
             <div className="col">
-                <h1 style={{textAlign:'center'}}>19ª Mostra de Pesquisa, Ensino e Extensão</h1>
+                <h1 style={{textAlign:'center'}}>20ª Mostra de Pesquisa, Ensino e Extensão</h1>
             </div>
             <div className="col">
             <h4 style={{textAlign:'center'}}>Data do evento aqui</h4>
-            </div>
-            <div className="flex-column justify-content-center">
-                <a class="btn btn-primary btn-lg" href="#" role="button">NOVIDADES</a>
-                <a class="btn btn-primary btn-lg" href="#" role="button">REGULAMENTOS</a>
-                <a class="btn btn-primary btn-lg" href="#" role="button">EVENTOS</a>
             </div>
         </div>
 
@@ -29,9 +24,19 @@ export default () => (
             </div>
         </div>
 
-        <div style={{position:'relative'}}>
-            <div style={{color:'#ddd', backgroundcolor:'#282E34', textalign:'center justify', padding:'50px 80px'}}>
-                <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        <div class="card" style={{width: '50rem', margin:'0 auto', padding:'5rem'}}>
+            <img class="card-img-top" src="ifrs.jpg" alt="Imagem de capa do card"/>
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link" style={{padding:'2rem'}}>Link do card</a>
+                <a href="#" class="card-link">Outro link</a>
             </div>
         </div>
 
