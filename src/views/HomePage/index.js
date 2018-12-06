@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import './index.css';
+import { Grid } from "../../components/Grid/basicGrid"
 
 export default () => (
     <Fragment >
@@ -25,9 +26,9 @@ export default () => (
                 </div>
             </div>
 
-           <div style={{ position: 'relative' }}>
-                <div style={{ color: '#ddd', backgroundcolor: '#282E34', textalign: 'center justify', padding: '50px 80px' }}>
-                    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+            <div style={{ position: 'relative' }}>
+                <div style={{backgroundcolor: '#282E34', textalign: 'center justify', padding: '50px 80px' }}>
+                <Grid text="Novidades"></Grid>
                 </div>
             </div>
 
@@ -38,8 +39,8 @@ export default () => (
             </div>
 
             <div style={{ position: 'relative' }}>
-                <div style={{ color: '#ddd', backgroundcolor: '#282E34', textalign: 'center justify', padding: '50px 80px' }}>
-                    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+                <div style={{ backgroundcolor: '#282E34', textalign: 'center justify', padding: '50px 80px' }}>
+                <Grid text="Regulamento"></Grid>
                 </div>
             </div>
 
