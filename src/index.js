@@ -7,6 +7,7 @@ import './index.css';
 import Index from './views/HomePage'
 import NotFound from './views/NotFound'
 import {Menu} from './components/Menu/dropDown'
+import {Regulamento} from './components/Regulamento/regulamento'
 
 
 const routes = () => (
@@ -14,6 +15,7 @@ const routes = () => (
       <Menu/>
       <Switch>
         <Route path="/index" component={Index} />
+        <Route path="/regulamento" component={Regulamento} />
         <Redirect exact from="/" to="index" />
         <Route component={NotFound} />
       </Switch>
