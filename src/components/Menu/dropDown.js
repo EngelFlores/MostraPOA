@@ -25,7 +25,7 @@ export const Menu = () => (
               <div className="container">
                 <Link to={"/regulamento"}>REGULAMENTO</Link>
                 <Link to={"/"}>INSCRIÇÕES</Link>
-                <Link to={"/"}>CRONOGRAMA</Link>
+                <Link to={"/cronograma"}>CRONOGRAMA</Link>
                 <Link to={"/"}>PROGRAMAÇÃO</Link>
                 <Link to={"/"}>HORÁRIO</Link>
                 <Link to={"/"}>PALESTRANTES</Link>
@@ -45,7 +45,7 @@ export const Menu = () => (
               <div className="container">
                 <Link to={"/regulamento"}>REGULAMENTO</Link>
                 <Link to={"/"}>INSCRIÇÕES</Link>
-                <Link to={"/"}>CRONOGRAMA</Link>
+                <Link to={"/cronograma"}>CRONOGRAMA</Link>
                 <Link to={"/"}>PROGRAMAÇÃO</Link>
                 <Link to={"/"}>HORÁRIO</Link>
                 <Link to={"/"}>PALESTRANTES</Link>
@@ -65,7 +65,7 @@ export const Menu = () => (
               <div className="container">
                 <Link to={"/regulamento"}>REGULAMENTO</Link>
                 <Link to={"/"}>INSCRIÇÕES</Link>
-                <Link to={"/"}>CRONOGRAMA</Link>
+                <Link to={"/cronograma"}>CRONOGRAMA</Link>
                 <Link to={"/"}>PROGRAMAÇÃO</Link>
                 <Link to={"/"}>HORÁRIO</Link>
                 <Link to={"/"}>PALESTRANTES</Link>
@@ -123,7 +123,7 @@ export const Menu = () => (
           <div className="container">
             <Link to={"/regulamento"}>REGULAMENTO</Link>
             <Link to={"/"}>INSCRIÇÕES</Link>
-            <Link to={"/"}>CRONOGRAMA</Link>
+            <Link to={"/cronograma"}>CRONOGRAMA</Link>
             <Link to={"/"}>PROGRAMAÇÃO</Link>
             <Link to={"/"}>HORÁRIO</Link>
             <Link to={"/"}>PALESTRANTES</Link>
@@ -143,7 +143,7 @@ export const Menu = () => (
           <div className="container">
             <Link to={"/regulamento"}>REGULAMENTO</Link>
             <Link to={"/"}>INSCRIÇÕES</Link>
-            <Link to={"/"}>CRONOGRAMA</Link>
+            <Link to={"/cronograma"}>CRONOGRAMA</Link>
             <Link to={"/"}>PROGRAMAÇÃO</Link>
             <Link to={"/"}>HORÁRIO</Link>
             <Link to={"/"}>PALESTRANTES</Link>
@@ -163,7 +163,7 @@ export const Menu = () => (
           <div className="container">
             <Link to={"/regulamento"}>REGULAMENTO</Link>
             <Link to={"/"}>INSCRIÇÕES</Link>
-            <Link to={"/"}>CRONOGRAMA</Link>
+            <Link to={"/cronograma"}>CRONOGRAMA</Link>
             <Link to={"/"}>PROGRAMAÇÃO</Link>
             <Link to={"/"}>HORÁRIO</Link>
             <Link to={"/"}>PALESTRANTES</Link>
