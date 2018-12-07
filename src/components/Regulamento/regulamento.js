@@ -179,7 +179,9 @@ export const Regulamento = () => (
 				<h2>9. Casos Omissos</h2>
 				<p>Casos omissos serão analisados e deliberados pela Comissão Organizadora.</p>
 				
-
+				<h2>10. Anexos</h2>
+				
+				<p><b>Envio da Versão Final</b>: o template é um arquivo .doc a ser enviado com a formatação final: <a href="http://mostra.poa.ifrs.edu.br/2016/arquivos/modelo-MostraPoA-final.doc">http://mostra.poa.ifrs.edu.br/2016/arquivos/modelo-MostraPoA-final.doc</a>. Assista a dica no vídeo abaixo de como preparar seu arquivo usando o modelo da MostraPoA e como submeter a versão final.</p>
 			  
                 </div>
             </div>

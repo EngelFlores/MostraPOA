@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Tooltip } from 'react-tippy'
 import 'react-tippy/dist/tippy.css'
 import './dropDown.css'
@@ -16,22 +16,7 @@ export const Menu = () => (
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                    <Tooltip
-                        position="bottom-start"
-                        html={
-                            <div className='container'>
-                                <Link to={'/'}>NOVIDADES</Link>
-                                <Link to={'/regulamento'}>REGULAMENTOS</Link>
-                                <Link to={'/'}>EVENTOS</Link>
-                            </div>
-                        }
-                        trigger="click"
-                        interactive="true"
-                        useContext="true"
-                        theme="light"
-                    >
-                        <p>INÍCIO</p>
-                    </Tooltip>
+
 
                     <Tooltip
                         position="bottom-start"
@@ -50,7 +35,7 @@ export const Menu = () => (
                         useContext="true"
                         theme="light"
                     >
-                        <p>MOSTRAPOA</p>
+                        <p className='menu__link'>MOSTRAPOA</p>
                     </Tooltip>
 
 
@@ -70,10 +55,10 @@ export const Menu = () => (
                         interactive="true"
                         useContext="true"
                         theme="light"
-                        
-                        
+
+
                     >
-                        <p>STARTPOA</p>
+                        <p className='menu__link'>STARTPOA</p>
                     </Tooltip>
 
                     <Tooltip
@@ -93,7 +78,7 @@ export const Menu = () => (
                         useContext="true"
                         theme="light"
                     >
-                        <p>ROBÓTICA</p>
+                        <p className='menu__link'>ROBÓTICA</p>
                     </Tooltip>
 
 
@@ -111,33 +96,17 @@ export const Menu = () => (
                         useContext="true"
                         theme="light"
                     >
-                        <p>TRABALHOS</p>
+                        <p className='menu__link'>TRABALHOS</p>
                     </Tooltip>
 
-                    <p onClick={<Redirect to={''}></Redirect>}>SOBRE</p>
+                    <p ><Link className='menu__link' to={'/'}>SOBRE</Link></p>
 
-                    <p onClick={<Redirect to={''}></Redirect>}>CONTATO</p>
+                    <p ><Link className='menu__link' to={'/'}>CONTATO</Link></p>
                 </ul>
             </div>
         </nav>
 
         <div className='menu'>
-            <Tooltip
-                position="bottom-start"
-                html={
-                    <div className='container'>
-                        <Link to={'/'}>NOVIDADES</Link>
-                        <Link to={'/regulamento'}>REGULAMENTOS</Link>
-                        <Link to={'/'}>EVENTOS</Link>
-                    </div>
-                }
-                trigger="click"
-                interactive="true"
-                useContext="true"
-                theme="light"
-            >
-                <p>INÍCIO</p>
-            </Tooltip>
 
             <Tooltip
                 position="bottom-start"
@@ -156,7 +125,7 @@ export const Menu = () => (
                 useContext="true"
                 theme="light"
             >
-                <p>MOSTRAPOA</p>
+                <p className='menu__link'>MOSTRAPOA</p>
             </Tooltip>
 
 
@@ -177,14 +146,14 @@ export const Menu = () => (
                 useContext="true"
                 theme="light"
             >
-                <p>STARTPOA</p>
+                <p className='menu__link'>STARTPOA</p>
             </Tooltip>
 
             <Tooltip
                 position="bottom-start"
                 html={
                     <div className='container'>
-                        <Link to={'/'}>REGULAMENTO</Link>
+                        <Link to={'/regulamento'}>REGULAMENTO</Link>
                         <Link to={'/'}>INSCRIÇÕES</Link>
                         <Link to={'/'}>CRONOGRAMA</Link>
                         <Link to={'/'}>PROGRAMAÇÃO</Link>
@@ -197,7 +166,7 @@ export const Menu = () => (
                 useContext="true"
                 theme="light"
             >
-                <p>ROBÓTICA</p>
+                <p className='menu__link'>ROBÓTICA</p>
             </Tooltip>
 
 
@@ -215,12 +184,12 @@ export const Menu = () => (
                 useContext="true"
                 theme="light"
             >
-                <p>TRABALHOS</p>
+                <p className='menu__link'>TRABALHOS</p>
             </Tooltip>
 
-            <p onClick={<Redirect to={''}></Redirect>}>SOBRE</p>
-            
-            <p onClick={<Redirect to={''}></Redirect>}>CONTATO</p>
+            <p ><Link className='menu__link' to={'/'}>SOBRE</Link></p>
+
+            <p ><Link className='menu__link' to={'/'}>CONTATO</Link></p>
         </div>
     </Fragment>
 )

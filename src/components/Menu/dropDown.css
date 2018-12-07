@@ -5,6 +5,9 @@
     width: 100%;
     font-size: 16px;
 }
+.menu__link{
+    color: white
+}
 
 a {
     text-decoration: none;
@@ -12,12 +15,15 @@ a {
     cursor: pointer;
     color: black;
 }
+a:hover{
+    color: rgb(12, 143, 136)
+}
 
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
     background-color: black;
     position: fixed;
     width: 100%;
@@ -30,10 +36,7 @@ a {
     font-size: 20px;
 }
 
-p {
-    color: white;
-    cursor: pointer;
-}
+
 .tippy-tooltip,
 .tippy-tooltip--regular,
 .light-theme,
