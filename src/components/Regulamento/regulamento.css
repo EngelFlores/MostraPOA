@@ -1,7 +1,5 @@
 
-h1, h2, h3, h4, h5, header { 
-    font-family:"Crimson Text", "Lucida Sans Unicode","Times New Roman", serif; 
-  } 
+
   
   
   header {
@@ -44,7 +42,6 @@ h1, h2, h3, h4, h5, header {
   
   div.column div.belief {
     text-align: left;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     line-height: 1.4em;
     font-size: 12px;
     overflow: hidden;
@@ -57,7 +54,6 @@ h1, h2, h3, h4, h5, header {
   div.column div.belief h3 { float: left; font-size: 58px; font-weight: 500; line-height: normal; margin: -10px 15px 0 0; color: #ccc; width: 30px; }
   
   div.column div.belief h4 {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     font-size: 16px;
     margin: 5px 0;
     color: #cc0000;
@@ -65,7 +61,6 @@ h1, h2, h3, h4, h5, header {
   
   div.column div.belief p {
     margin: 0 0 0 45px;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   }
   
   

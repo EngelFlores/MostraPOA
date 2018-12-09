@@ -9,6 +9,7 @@ import NotFound from "./views/NotFound";
 import { Menu } from "./components/Menu/dropDown";
 import { Regulamento } from "./components/Regulamento/regulamento";
 import { Cronograma } from "./components/Cronograma/cronograma";
+import { Formulario } from "./components/Inscricoes/formulario";
 
 const routes = () => (
   <Fragment>
@@ -17,6 +18,7 @@ const routes = () => (
       <Route path="/index" component={Index} />
       <Route path="/regulamento" component={Regulamento} />
       <Route path="/cronograma" component={Cronograma} />
+      <Route path="/incricao" component={Formulario} />
       <Redirect exact from="/" to="index" />
       <Route component={NotFound} />
     </Switch>
