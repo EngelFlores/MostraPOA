@@ -1,36 +1,39 @@
-
-
-  
-  
   header {
     color:#232323;
-    font-size:48px;
+    font-size:30px;
     font-style:normal;
     font-weight:500;
     letter-spacing:-1px;
     line-height:1.1em;
-    font-size:42px;
+    font-size:30px;
     margin-bottom: 30px;
     text-align: center;
   }
+
+  .paragrafo{
+    font-size: 12px;
+    text-align: justify;
+    
+  }
  
   .list__container{
-  display: flex;
-  justify-content: center
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
   }
   .box-container{
       margin-top: 60px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-left: 50px;
+      margin-left: 30px;
       flex-wrap: wrap
 
   }
   
- 
   div.column {
-    float:left;
     margin-right:40px;
     width:380px;
   }
@@ -51,7 +54,8 @@
   div.column div.belief.top { margin-top: 0; }
   div.column div.belief.bottom { margin-bottom: 0; }
   
-  div.column div.belief h3 { float: left; font-size: 58px; font-weight: 500; line-height: normal; margin: -10px 15px 0 0; color: #ccc; width: 30px; }
+  div.column div.belief h3 {
+     float: left; font-size: 20px; font-weight: 500; line-height: normal; margin: 0 15px 0 0; color: #ccc;}
   
   div.column div.belief h4 {
     font-size: 16px;
@@ -60,9 +64,41 @@
   }
   
   div.column div.belief p {
-    margin: 0 0 0 45px;
+    margin: 0;
   }
   
+  @media (max-width:800px){
+    header {
+      margin-left: -30px
+    }
+    .list__container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      }
+
+      div.column {
+        float:left;
+        margin-right:40px;
+        width:90%
+      }
+  }
+  
+ 
+  @media (max-width:500px){
+    header {
+      margin-left: -30px
+    }
+    .list__container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      }
+
+  }
+  
+
+
   
   
   

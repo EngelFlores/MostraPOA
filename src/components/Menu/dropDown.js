@@ -25,9 +25,8 @@ export const Menu = () => (
               <div className="container">
                 <Link to={"/regulamento"}>REGULAMENTO</Link>
                 <Link to={"/incricao"}>INSCRIÇÕES</Link>
-                <Link to={"/cronograma"}>CRONOGRAMA</Link>
-                <Link to={"/"}>PROGRAMAÇÃO</Link>
-                <Link to={"/"}>HORÁRIO</Link>
+                <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
+                <Link to={"/horario"}>HORÁRIO</Link>
                 <Link to={"/"}>PALESTRANTES</Link>
               </div>
             }
@@ -45,9 +44,8 @@ export const Menu = () => (
               <div className="container">
                 <Link to={"/regulamento"}>REGULAMENTO</Link>
                 <Link to={"/incricao"}>INSCRIÇÕES</Link>
-                <Link to={"/cronograma"}>CRONOGRAMA</Link>
-                <Link to={"/"}>PROGRAMAÇÃO</Link>
-                <Link to={"/"}>HORÁRIO</Link>
+                <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
+                <Link to={"/horario"}>HORÁRIO</Link>
                 <Link to={"/"}>PALESTRANTES</Link>
               </div>
             }
@@ -65,9 +63,8 @@ export const Menu = () => (
               <div className="container">
                 <Link to={"/regulamento"}>REGULAMENTO</Link>
                 <Link to={"/incricao"}>INSCRIÇÕES</Link>
-                <Link to={"/cronograma"}>CRONOGRAMA</Link>
-                <Link to={"/"}>PROGRAMAÇÃO</Link>
-                <Link to={"/"}>HORÁRIO</Link>
+                <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
+                <Link to={"/horario"}>HORÁRIO</Link>
                 <Link to={"/"}>PALESTRANTES</Link>
               </div>
             }
@@ -123,9 +120,8 @@ export const Menu = () => (
           <div className="container">
             <Link to={"/regulamento"}>REGULAMENTO</Link>
             <Link to={"/incricao"}>INSCRIÇÕES</Link>
-            <Link to={"/cronograma"}>CRONOGRAMA</Link>
-            <Link to={"/"}>PROGRAMAÇÃO</Link>
-            <Link to={"/"}>HORÁRIO</Link>
+            <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
+            <Link to={"/horario"}>HORÁRIO</Link>
             <Link to={"/"}>PALESTRANTES</Link>
           </div>
         }
@@ -143,9 +139,8 @@ export const Menu = () => (
           <div className="container">
             <Link to={"/regulamento"}>REGULAMENTO</Link>
             <Link to={"/incricao"}>INSCRIÇÕES</Link>
-            <Link to={"/cronograma"}>CRONOGRAMA</Link>
-            <Link to={"/"}>PROGRAMAÇÃO</Link>
-            <Link to={"/"}>HORÁRIO</Link>
+            <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
+            <Link to={"/horario"}>HORÁRIO</Link>
             <Link to={"/"}>PALESTRANTES</Link>
           </div>
         }
@@ -163,9 +158,8 @@ export const Menu = () => (
           <div className="container">
             <Link to={"/regulamento"}>REGULAMENTO</Link>
             <Link to={"/incricao"}>INSCRIÇÕES</Link>
-            <Link to={"/cronograma"}>CRONOGRAMA</Link>
-            <Link to={"/"}>PROGRAMAÇÃO</Link>
-            <Link to={"/"}>HORÁRIO</Link>
+            <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
+            <Link to={"/horario"}>HORÁRIO</Link>
             <Link to={"/"}>PALESTRANTES</Link>
           </div>
         }

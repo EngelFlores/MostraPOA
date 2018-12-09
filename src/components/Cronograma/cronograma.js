@@ -11,45 +11,45 @@ export const Cronograma = () => (
       <li className="events">
         <ul className="events-detail">
           <li>
-            <span className="event-time">Até dia 18 - </span>
+            <span className="event-time">Dia 18 - </span>
             <span className="event-name">
-              Inscrição de autores, coautores, orientadores e coorientadores
+              Recepção e credenciamento
             </span>
             <br />
             <span className="event-location">Torre Sul</span>
           </li>
 
           <li>
-            <span className="event-time">Até dia 20 - </span>
+            <span className="event-time">Dia 20 - </span>
             <span className="event-name">
-              Inscrição de avaliadores, voluntários e ouvintes
+              Cerimônia
             </span>
             <br />
             <span className="event-location">Torre Norte</span>
           </li>
 
           <li>
-            <span className="event-time">Até dia 22 - </span>
+            <span className="event-time">Dia 22 - </span>
             <span className="event-name">
-              Período para correção de trabalhos não aceitos
+              Palestra de Abertura
             </span>
             <br />
             <span className="event-location">Torre Sul - Sala 1003</span>
           </li>
 
           <li>
-            <span className="event-time">Até dia 26 - </span>
+            <span className="event-time">Dia 26 - </span>
             <span className="event-name">
-              Divulgação final dos trabalhos aceitos
+              Sessões de apresentação de trabalhos
             </span>
             <br />
             <span className="event-location">Torre Sul - Sala 1003</span>
           </li>
 
           <li>
-            <span className="event-time">Até dia 28 - </span>
+            <span className="event-time">Dia 28 - </span>
             <span className="event-name">
-              Divulgação dos horários das apresentações
+              Premiação dos Trabalhos
             </span>
             <br />
             <span className="event-location">Torre Sul - Sala 1003</span>
@@ -64,45 +64,45 @@ export const Cronograma = () => (
       <li className="events">
         <ul className="events-detail">
           <li>
-            <span className="event-time">Até dia 18 - </span>
+            <span className="event-time">Dia 18 - </span>
             <span className="event-name">
-              Inscrição de autores, coautores, orientadores e coorientadores
+              Recepção e credenciamento
             </span>
             <br />
             <span className="event-location">Torre Sul</span>
           </li>
 
           <li>
-            <span className="event-time">Até dia 20 - </span>
+            <span className="event-time">Dia 20 - </span>
             <span className="event-name">
-              Inscrição de avaliadores, voluntários e ouvintes
+              Cerimônia
             </span>
             <br />
             <span className="event-location">Torre Norte</span>
           </li>
 
           <li>
-            <span className="event-time">Até dia 22 - </span>
+            <span className="event-time">Dia 22 - </span>
             <span className="event-name">
-              Período para correção de trabalhos não aceitos
+              Palestra de Abertura
             </span>
             <br />
             <span className="event-location">Torre Sul - Sala 1003</span>
           </li>
 
           <li>
-            <span className="event-time">Até dia 26 - </span>
+            <span className="event-time">Dia 26 - </span>
             <span className="event-name">
-              Divulgação final dos trabalhos aceitos
+              Sessões de apresentação de trabalhos
             </span>
             <br />
             <span className="event-location">Torre Sul - Sala 1003</span>
           </li>
 
           <li>
-            <span className="event-time">Até dia 28 - </span>
+            <span className="event-time">Dia 28 - </span>
             <span className="event-name">
-              Divulgação dos horários das apresentações
+              Premiação dos Trabalhos
             </span>
             <br />
             <span className="event-location">Torre Sul - Sala 1003</span>
