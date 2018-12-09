@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-// import { Link } from "react-router-dom";
 import './basicGrid.css'
 import novidade1 from "./IMG_3662.JPG"
 import novidade2 from "./IMG_3783.JPG"

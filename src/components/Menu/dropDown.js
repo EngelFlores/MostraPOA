@@ -27,7 +27,7 @@ export const Menu = () => (
                 <Link to={"/incricao"}>INSCRIÇÕES</Link>
                 <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
                 <Link to={"/horario"}>HORÁRIO</Link>
-                <Link to={"/"}>PALESTRANTES</Link>
+                <Link to={"/palestrantes"}>PALESTRANTES</Link>
               </div>
             }
             trigger="click"
@@ -46,7 +46,7 @@ export const Menu = () => (
                 <Link to={"/incricao"}>INSCRIÇÕES</Link>
                 <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
                 <Link to={"/horario"}>HORÁRIO</Link>
-                <Link to={"/"}>PALESTRANTES</Link>
+                <Link to={"/palestrantes"}>PALESTRANTES</Link>
               </div>
             }
             trigger="click"
@@ -65,7 +65,7 @@ export const Menu = () => (
                 <Link to={"/incricao"}>INSCRIÇÕES</Link>
                 <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
                 <Link to={"/horario"}>HORÁRIO</Link>
-                <Link to={"/"}>PALESTRANTES</Link>
+                <Link to={"/palestrantes"}>PALESTRANTES</Link>
               </div>
             }
             trigger="click"
@@ -122,7 +122,7 @@ export const Menu = () => (
             <Link to={"/incricao"}>INSCRIÇÕES</Link>
             <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
             <Link to={"/horario"}>HORÁRIO</Link>
-            <Link to={"/"}>PALESTRANTES</Link>
+            <Link to={"/palestrantes"}>PALESTRANTES</Link>
           </div>
         }
         trigger="click"
@@ -141,7 +141,7 @@ export const Menu = () => (
             <Link to={"/incricao"}>INSCRIÇÕES</Link>
             <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
             <Link to={"/horario"}>HORÁRIO</Link>
-            <Link to={"/"}>PALESTRANTES</Link>
+            <Link to={"/palestrantes"}>PALESTRANTES</Link>
           </div>
         }
         trigger="click"
@@ -160,7 +160,7 @@ export const Menu = () => (
             <Link to={"/incricao"}>INSCRIÇÕES</Link>
             <Link to={"/cronograma"}>PROGRAMAÇÃO</Link>
             <Link to={"/horario"}>HORÁRIO</Link>
-            <Link to={"/"}>PALESTRANTES</Link>
+            <Link to={"/palestrantes"}>PALESTRANTES</Link>
           </div>
         }
         trigger="click"

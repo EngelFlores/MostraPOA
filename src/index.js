@@ -11,6 +11,7 @@ import { Regulamento } from "./components/Regulamento/regulamento";
 import { Cronograma } from "./components/Cronograma/cronograma";
 import { Formulario } from "./components/Inscricoes/formulario";
 import { Horario } from "./components/Horario/horario";
+import { Palestrantes } from "./components/Palestrantes/palestrantes";
 
 const routes = () => (
   <Fragment>
@@ -21,6 +22,7 @@ const routes = () => (
       <Route path="/cronograma" component={Cronograma} />
       <Route path="/incricao" component={Formulario} />
       <Route path="/horario" component={Horario} />
+      <Route path="/palestrantes" component={Palestrantes} />
       <Redirect exact from="/" to="index" />
       <Route component={NotFound} />
     </Switch>
