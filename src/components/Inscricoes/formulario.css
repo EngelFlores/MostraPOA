@@ -16,7 +16,8 @@ form {
 	}
 }
 .form__title{
-    margin-left: calc(50% - 70px)
+	margin-left: calc(50% - 70px);
+	font-size: 30px;
    
 }
 

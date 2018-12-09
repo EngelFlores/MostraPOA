@@ -3,6 +3,9 @@ import "./cronograma.css";
 
 export const Cronograma = () => (
   <Fragment>
+    <h1 className="title_cronograma">Programação</h1>
+    <div className="container_cronograma">
+
     <ul className="main">
       <li className="date">
         <h3>Julho</h3>
@@ -110,5 +113,6 @@ export const Cronograma = () => (
         </ul>
       </li>
     </ul>
+    </div>
   </Fragment>
 );

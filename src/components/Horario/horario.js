@@ -3,6 +3,7 @@ import "./horario.css";
 
 export const Horario = () => (
     <Fragment>
+        <h1 className="title_horarios">Horário Sessões</h1>
         <div className="container__horario">
             <div className="row">
                 <div className="col-12">

@@ -7,7 +7,11 @@
     display: flex;
     width: 100%;}
 
-
+.title_horarios{
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: calc(50% - 100px)
+}
 .green { background-color: #2ecc71; }
 .turquoise { background-color: #1abc9c; }
 .navy { background-color: #34495e; }
