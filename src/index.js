@@ -14,6 +14,7 @@ import { Horario } from "./components/Horario/horario";
 import { Palestrantes } from "./components/Palestrantes/palestrantes";
 import { Sobre } from  "./views/Sobre";
 import { Contato } from "./components/Contato/contato";
+import { Premiados } from "./components/Premiados/premiados";
 
 
 const routes = () => (
@@ -27,7 +28,8 @@ const routes = () => (
       <Route path="/horario" component={Horario} />
       <Route path="/palestrantes" component={Palestrantes} />
       <Route path="/sobre" component={Sobre}/>
-      <Route path="/contato" components={Contato}/>
+      <Route path="/contato" component={Contato}/>
+      <Route path="/premiados" component={Premiados}/>
       <Redirect exact from="/" to="index" />
       <Route component={NotFound} />
     </Switch>

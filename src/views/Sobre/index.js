@@ -4,20 +4,20 @@ import {Comissao} from '../../components/Comissao/comissao'
 
 export const Sobre = () => (
     <Fragment>
-        <div class="banner-crono">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h1 class="page-header" style={{ marginTop: '2em', textAlign: 'center' }}>Apresentação</h1>
+        <div className="banner-crono">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xs-12">
+                        <h1 className="page-header" style={{ marginTop: '2em', textAlign: 'center' }}>Apresentação</h1>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-12" >
+        <div className="container">
+            <div className="row ">
+                <div className="col-md-12" >
 
                     <h2 style={{ textAlign: 'center',fontSize:"20px" }}>Sobre a MostraPoA</h2>
                     <p style={{ textAlign: 'justify',fontSize:"14px" }}>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
