@@ -100,7 +100,7 @@ export const Menu = () => (
           </p>
 
           <p>
-            <Link className="menu__link" to={"/"}>
+            <Link className="menu__link" to={"/contato"}>
               CONTATO
             </Link>
           </p>
@@ -195,7 +195,7 @@ export const Menu = () => (
       </p>
 
       <p>
-        <Link className="menu__link" to={"/"}>
+        <Link className="menu__link" to={"/contato"}>
           CONTATO
         </Link>
       </p>

@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
-import "./formulario.css";
+import "./contato.css";
 
-export const Formulario = () => (
+export const Contato = () => (
     <Fragment>
         <div className="container__form">
-            <h1 className="form__title">Incrições</h1>
+            <h1 className="form__title">Contato</h1>
 
             <form>
                 <div className="large-group">
@@ -19,27 +19,6 @@ export const Formulario = () => (
                     </div>
 
                     <div className="small-group">
-                        <label >Instituição</label>
-                        <select name="fruit">
-                            <option value="strawberry">IFRS</option>
-                            <option value="peach">UFRGS</option>
-                            <option value="banana">PUCRS</option>
-                            <option value="watermelon">ULBRA</option>
-                            <option value="pineapple">Outra</option>
-                        </select>
-                    </div>
-                    <div className="small-group">
-                        <label >Ocupação</label>
-                        <select name="vegetable">
-                            <option value="carrot">Estudante</option>
-                            <option value="peppers">Trabalha e estuda</option>
-                            <option value="broccoli">Trabalha</option>
-                            <option value="corn">Desempregado</option>
-                            <option value="beats">Outra</option>
-                        </select>
-                    </div>
-
-                    <div className="small-group">
                         <label >E-mail</label>
                         <input id="email" type="email" name="email" required/>
                     </div>
@@ -50,7 +29,7 @@ export const Formulario = () => (
                     </div>
 
                     <div className="textarea-div">
-                        <label >Resumo Biografia</label>
+                        <label >Mensagem</label>
                         <textarea id="message" type="text" name="message" required></textarea>
                     </div>
 
