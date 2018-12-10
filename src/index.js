@@ -13,7 +13,6 @@ import { Formulario } from "./components/Inscricoes/formulario";
 import { Horario } from "./components/Horario/horario";
 import { Palestrantes } from "./components/Palestrantes/palestrantes";
 import { Sobre } from  "./views/Sobre";
-
 import { Contato } from "./components/Contato/contato";
 
 

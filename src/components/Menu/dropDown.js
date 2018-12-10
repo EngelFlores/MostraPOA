@@ -94,7 +94,7 @@ export const Menu = () => (
           </Tooltip>
 
           <p>
-            <Link className="menu__link" to={"/"}>
+            <Link className="menu__link" to={"/sobre"}>
               SOBRE
             </Link>
           </p>
@@ -189,7 +189,7 @@ export const Menu = () => (
       </Tooltip>
 
       <p>
-        <Link className="menu__link" to={"/"}>
+        <Link className="menu__link" to={"/sobre"}>
           SOBRE
         </Link>
       </p>
