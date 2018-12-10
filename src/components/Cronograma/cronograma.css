@@ -6,7 +6,7 @@
     .title_cronograma{
       font-size: 30px;
     margin-top: 60px;
-    margin-left: calc(50% - 100px)
+    text-align: center;
     }
     ul.main { 
       list-style: none;

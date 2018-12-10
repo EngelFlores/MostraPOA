@@ -49,3 +49,8 @@
 .main-timeline7 .timeline-content,.main-timeline7 .timeline:nth-child(2n) .timeline-content{text-align:left;padding:18px 40px 18px 100px}
 .main-timeline7 .timeline-content:after,.main-timeline7 .timeline-content:before{width:0;height:0}
 }
+.title__submissao{
+    font-size: 30px;
+    color: black;
+    margin-top: 60px;
+}

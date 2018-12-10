@@ -4,7 +4,7 @@ import "./regulamento.css";
 export const Regulamento = () => (
   <Fragment>
     <div className="box-container">
-      <header>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</header>
+      <header>Regulamento</header>
       <div className="list__container">
         <div className="column">
           <div className="belief top">

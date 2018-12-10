@@ -1,7 +1,8 @@
 import React from 'react';
+import "./index.css"
 
 export default () => (
-    <div>
+    <div className="background__image">
         <p>Page Not Found</p>
     </div>
 )

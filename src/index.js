@@ -16,6 +16,7 @@ import { Sobre } from  "./views/Sobre";
 import { Contato } from "./components/Contato/contato";
 import { Premiados } from "./components/Premiados/premiados";
 import { Submissao } from "./components/Submissao/submissao";
+import { Aceitos } from "./components/Aceitos/aceitos";
 
 
 const routes = () => (
@@ -32,6 +33,7 @@ const routes = () => (
       <Route path="/contato" component={Contato}/>
       <Route path="/premiados" component={Premiados}/>
       <Route path="/submissao" component={Submissao}/>
+      <Route path="/aceitos" component={Aceitos}/>
       <Redirect exact from="/" to="index" />
       <Route component={NotFound} />
     </Switch>
