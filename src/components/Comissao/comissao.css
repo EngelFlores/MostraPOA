@@ -1,0 +1,22 @@
+.palestrantes__image{
+    width: 100%;
+}
+
+.title__palestrantes{
+    font-size: 30px;
+
+}
+
+.nome__palestrantes{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle__palestrantes{
+    font-size: 16px;
+}
+
+.bio_palestrantes{
+    text-align: justify;
+    width: 90%
+}

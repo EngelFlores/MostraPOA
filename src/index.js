@@ -27,11 +27,13 @@ const routes = () => (
       <Route path="/horario" component={Horario} />
       <Route path="/palestrantes" component={Palestrantes} />
       <Route path="/sobre" component={Sobre}/>
+      <Route path="/contato" components={Contato}/>
       <Redirect exact from="/" to="index" />
       <Route component={NotFound} />
     </Switch>
   </Fragment>
 );
+
 
 ReactDOM.render(
   <BrowserRouter>{routes()}</BrowserRouter>,
