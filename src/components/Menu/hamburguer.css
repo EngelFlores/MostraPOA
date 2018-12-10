@@ -13,7 +13,7 @@
     left: -5px;
     cursor: pointer;
     opacity: 0;
-    z-index: 2;
+    z-index: 10;
   }
   #menutoggle span{
     display: block;

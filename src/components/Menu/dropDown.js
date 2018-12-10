@@ -80,9 +80,9 @@ export const Menu = () => (
             position="bottom-start"
             html={
               <div className="container">
-                <Link to={"/"}>SUBMISSÃO</Link>
-                <Link to={"/"}>ACEITOS</Link>
-                <Link to={"/"}>PREMIADOS</Link>
+                <Link to={"/submissao"}>SUBMISSÃO</Link>
+                <Link to={"/aceitos"}>ACEITOS</Link>
+                <Link to={"/premiados"}>PREMIADOS</Link>
               </div>
             }
             trigger="click"
