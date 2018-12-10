@@ -19,15 +19,15 @@ export const Sobre = () => (
                 <div class="col-md-12" >
                    
                     <h2 style={{textAlign:'center'}}>Sobre a MostraPoA</h2>
-                    <p>A 20ª Mostra de Pesquisa, Ensino e Extensão do IFRS - Câmpus Porto Alegre,  promovida pelas Diretorias de Pesquisa e Inovação, Ensino e Extensão 
-                    apoia-se nas políticas públicas que orientam a proposta dos Institutos Federais e baseia-se na integração entre ciência, tecnologia e cultura como 
-                    dimensões indissociáveis da vida humana e, ao mesmo tempo, no desenvolvimento da capacidade de investigação científica, essencial à construção da autonomia intelectual da comunidade acadêmica. 
-                    Desta forma, o objetivo geral do evento é contribuir para a difusão do conhecimento produzido nas dimensões do ensino, da pesquisa e da extensão no âmbito das Instituições de Ensino Técnico, Superior e Pós-Graduação.
-
-                    Como instituição pública federal, busca-se cumprir com o compromisso social de difusão e criação de novos saberes e fazeres pedagógicos, promovendo e elevando a qualidade da produção 
-                    científica e tecnológica, bem como o desenvolvimento de tecnologias educacionais ligadas à educação básica, profissional e superior.</p>
-
-                    <p>Convidamos toda comunidade acadêmica a engajar-se neste espaço de discussão e difusão de conhecimento. </p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+                        tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
+                        quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+                         vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?.</p>
 
                 </div>
             </div>
